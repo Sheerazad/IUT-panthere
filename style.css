@@ -231,7 +231,6 @@ footer a:hover {
 .quote-section {
     background-color: #f9f9f9; /* Fond gris clair */
     padding: 40px; /* Espacement autour de la citation */
-    margin: 20px 0; /* Marge pour espacer les sections */
     text-align: center; /* Centre le texte */
 }
 
@@ -265,7 +264,6 @@ footer a:hover {
     display: flex; /* Utilisation de flexbox pour l'alignement */
     justify-content: space-between; /* Espace entre le texte et l'image */
     align-items: flex-start; /* Aligne le texte et l'image en haut */
-    margin: 20px; /* Marge autour de la section */
 }
 
 /* Texte de présentation */
@@ -274,14 +272,10 @@ footer a:hover {
     margin-right: 20px; /* Espace entre le texte et l'image */
 }
 
-/* Image de présentation */
-.image-container {
-    flex: 0 0 40%; /* Laisse 40% de la largeur pour l'image */
-}
-
 /* S'assurer que l'image prend toute la largeur */
 .presentation-img {
-    width: 100%; /* L'image prend toute la largeur de son conteneur */
+    flex: 0 0 40%;
+    width: 40%; /* L'image prend toute la largeur de son conteneur */
     height: auto; /* Conserve le ratio d'aspect */
 }
 
