@@ -1,32 +1,28 @@
-/* Reset de base */ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style global */
 body {
     font-family: 'Anton', sans-serif;
     background-color: #ffffff;
     color: #333;
 }
 
-/* Header avec logo centré et fond blanc */
 header {
     padding: 20px;
-    background-color: #ffffff; /* Fond blanc */
+    background-color: #ffffff;
     text-align: center;
 }
 
 .site-logo {
-    height: 120px; /* Taille du logo adaptée */
+    height: 120px;
     max-width: 100%;
 }
 
-/* Navigation avec couleur adoucie */
 .nav-center {
-    background-color: #f2f2f2; /* Gris très clair pour ne pas trop contraster avec le logo */
+    background-color: #f2f2f2;
     text-align: center;
     padding: 20px 0;
 }
@@ -41,7 +37,7 @@ header {
 }
 
 .nav-links a {
-    color: #333; /* Gris foncé pour le texte des liens */
+    color: #333;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
@@ -49,41 +45,38 @@ header {
 }
 
 .nav-links a:hover {
-    color: #ff7f50; /* Orange vif au survol pour dynamiser */
+    color: #ff7f50;
 }
 
-/* Section principale */
 .main-section {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Étire les éléments enfants pour qu'ils aient la même hauteur */
-    padding: 0; /* Retirer le remplissage pour éviter les bandes blanches */
-    background-color: #ffffff; /* Fond blanc pour garder l'harmonie avec la première bande */
+    align-items: stretch;
+    padding: 0;
+    background-color: #ffffff;
 }
 
-/* Image à gauche */
 .image-container {
-    width: 50%; /* L'image occupe 50% de la largeur */
+    width: 50%;
 }
 
 .presentation-img {
-    width: 100%; /* L'image prend toute la largeur de son conteneur */
-    height: 100%; /* L'image occupe toute la hauteur du conteneur */
-    object-fit: cover; /* L'image couvre le conteneur sans déformer */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/* Texte de présentation à droite */
 .presentation-text {
-    width: 50%; /* Ajusté pour occuper la moitié droite */
-    padding: 20px; /* Ajout de remplissage pour espacer le texte des bords */
-    display: flex; /* Utiliser flexbox pour centrer le contenu */
-    flex-direction: column; /* Aligner verticalement le texte */
-    justify-content: center; /* Centrer le texte verticalement */
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .presentation-text h2 {
     font-size: 36px;
-    color: #ff7f50; /* Orange vif pour les titres */
+    color: #ff7f50;
 }
 
 .presentation-text p {
@@ -91,16 +84,15 @@ header {
     color: #555;
 }
 
-/* Section Services */
 .services-section {
     padding: 60px;
-    background-color: #f9f9f9; /* Gris très léger pour contraster subtilement avec le blanc */
+    background-color: #f9f9f9;
     text-align: center;
 }
 
 .section-title {
     font-size: 40px;
-    color: #ff7f50; /* Orange vif */
+    color: #ff7f50;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -114,88 +106,81 @@ header {
 
 .service-item {
     width: 30%;
-    background-color: #ffffff; /* Blanc pour l'intérieur des services */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05); /* Ombre très légère */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .service-item h4 {
     font-size: 24px;
-    color: #333; /* Gris foncé pour le texte */
+    color: #333;
 }
 
 .service-item p {
     font-size: 16px;
-    color: #666; /* Gris moyen pour les descriptions */
+    color: #666;
 }
 
-/* Pied de page avec fond noir et centré */
-/* Pied de page avec fond noir et contenu centré */
 footer {
     padding: 40px;
-    background-color: #000000; /* Fond noir pour un fort contraste */
-    color: #ffffff; /* Texte blanc pour lisibilité */
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
 footer a {
-    color: #ffffff; /* Tous les liens en blanc pour correspondre au texte */
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #ff7f50; /* Les liens deviennent orange au survol */
+    color: #ff7f50;
 }
 
-/* Contenu principal du footer aligné horizontalement */
 .footer-content {
     display: flex;
-    flex-direction: row; /* Disposition en ligne */
-    justify-content: space-around; /* Espace équilibré entre chaque section */
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap; /* Permet de passer en ligne suivante sur écrans plus petits */
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-/* Section individuelle du footer avec texte centré et espacement */
 .footer-section {
     text-align: center;
-    width: 200px; /* Largeur pour un alignement uniforme */
+    width: 200px;
 }
 
 .footer-section h4 {
-    color: #ff7f50; /* Titre en orange */
+    color: #ff7f50;
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .footer-section p {
-    margin: 5px 0; /* Espacement entre chaque élément */
+    margin: 5px 0;
     font-size: 14px;
-    color: #ffffff; /* Couleur du texte en blanc pour les informations */
+    color: #ffffff;
 }
 
-/* Section légale en bas du footer */
 .footer-legal {
     margin-top: 20px;
     font-size: 14px;
     color: #cccccc;
 }
 
-
-/* Styles Responsive */
 @media (max-width: 768px) {
     .main-section {
         flex-direction: column;
-        padding: 20px; /* Ajout d'espace sur les petits écrans */
+        padding: 20px;
     }
 
     .presentation-text, .image-container {
-        width: 100%; /* Chaque section occupe toute la largeur sur mobile */
-        text-align: center; /* Centre le texte */
+        width: 100%;
+        text-align: center;
     }
 
     .services-wrapper {
@@ -204,79 +189,155 @@ footer a:hover {
     }
 
     .service-item {
-        width: 100%; /* Les éléments de service occupent toute la largeur sur mobile */
+        width: 100%;
     }
 }
 
 .cta-button {
-    display: inline-block; /* Pour le style en ligne */
-    padding: 10px 30px; /* Espacement autour du texte (ajouté pour agrandir) */
-    background-color: #000; /* Fond noir */
-    color: #ff7f50; /* Couleur du texte en orange */
-    font-size: 20px; /* Taille de police plus grande */
-    text-decoration: none; /* Pas de soulignement */
-    border-radius: 5px; /* Coins arrondis */
-    margin-top: 50px; /* Augmenté pour descendre le bouton (ajustez cette valeur) */
-    margin-left: auto; /* Pour aligner le bouton à droite */
-    margin-right: 0; /* Pour éviter l'espace à droite */
-    text-transform: uppercase; /* Met le texte en majuscules */
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #ff7f50;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 0;
+    text-transform: uppercase;
 }
 
 .cta-button:hover {
-    background-color: #ff7f50; /* Couleur au survol (orange) */
-    color: #000; /* Couleur du texte en noir au survol */
+    background-color: #ff7f50;
+    color: #000;
 }
 
-/* Section de citation */ 
 .quote-section {
-    background-color: #f9f9f9; /* Fond gris clair */
-    padding: 40px; /* Espacement autour de la citation */
-    text-align: center; /* Centre le texte */
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
 }
 
 .quote-section blockquote {
-    font-style: italic; /* Italique pour la citation */
-    font-size: 20px; /* Taille de police plus grande */
-    color: #000; /* Couleur du texte en noir */
-    margin: 0; /* Supprime la marge par défaut */
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
 }
 
 .quote-section footer {
-    margin-top: 10px; /* Espacement entre la citation et le nom */
-    font-size: 16px; /* Taille de police du nom */
-    color: #ff7f50; /* Couleur orange pour le nom */
-    text-align: center; /* Centré en bas de la citation */
-    background-color: #f9f9f9; /* Fond gris clair pour harmoniser */
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff7f50;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
-/* Petite bande orange en haut de la citation */
 .quote-section:before {
     content: "";
     display: block;
-    width: 50px; /* Largeur de la bande */
-    height: 5px; /* Hauteur de la bande */
-    background-color: #ff7f50; /* Couleur orange */
-    margin: 0 auto 20px; /* Centre la bande et ajoute une marge en bas */
+    width: 50px;
+    height: 5px;
+    background-color: #ff7f50;
+    margin: 0 auto 20px;
 }
 
-/* Conteneur principal pour le texte et l'image */
 .presentation-container {
-    display: flex; /* Utilisation de flexbox pour l'alignement */
-    justify-content: space-between; /* Espace entre le texte et l'image */
-    align-items: flex-start; /* Aligne le texte et l'image en haut */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-/* Texte de présentation */
 .presentation-text {
-    flex: 1; /* Permet au texte de prendre de l'espace */
-    margin-right: 20px; /* Espace entre le texte et l'image */
+    flex: 1;
+    margin-right: 20px;
 }
 
-/* S'assurer que l'image prend toute la largeur */
 .presentation-img {
     flex: 0 0 40%;
-    width: 40%; /* L'image prend toute la largeur de son conteneur */
-    height: auto; /* Conserve le ratio d'aspect */
+    width: 40%;
+    height: auto;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    color: #f78a2d;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form-container p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"] { 
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #000; 
+    color: #ff7f50; 
+    font-size: 20px; 
+    font-family: 'Anton', sans-serif; 
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    font-weight: normal; /* Police plus fine */
+    letter-spacing: 0.5px; /* Espacement légèrement réduit entre les lettres */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #ff7f50;
+    color: #000;
 }
 
 
+@media (max-width: 768px) {
+    .contact-section, .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-button {
+        margin-top: 20px;
+    }
+}
