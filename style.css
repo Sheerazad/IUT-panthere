@@ -1,4 +1,4 @@
-* {
+  * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,6 +59,7 @@ header {
 .image-container {
     width: 50%;
 }
+
 
 .presentation-img {
     width: 100%;
@@ -339,6 +340,181 @@ footer a:hover {
 
     .cta-button {
         margin-top: 20px;
+    }
+}
+
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section des services */
+.services-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ff7f50;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service-item {
+    background-color: #e9e9e9;
+    padding: 20px;
+    width: calc(33% - 20px);
+    min-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-item h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Section des réalisations */
+.realizations-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Présentation */
+.presentation-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.presentation-img img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Section des réalisations */
+.realizations-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Présentation */
+.presentation-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.presentation-img img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Section CTA */
+.cta-section {
+    text-align: center;
+    margin: 60px auto; /* Ajoute un espacement supérieur et inférieur */
+    max-width: 900px;
+}
+
+.cta-section p {
+    font-size: 1.5em; /* Augmente la taille de la police */
+    font-weight: normal;
+    line-height: 1.4;
+    margin-bottom: 30px; /* Espacement entre le texte et le bouton */
+    color: #ff7f50;
+}
+
+.cta-section .cta-button {
+    display: inline-block;
+    margin-top: 20px; /* Ajoute un petit espacement au-dessus si nécessaire */
+}
+
+/* CSS pour redimensionner les images des sections de réalisation */
+.presentation-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.presentation-img img {
+    width: 100%; /* Redimensionne l'image en fonction de la taille du conteneur */
+    max-width: 300px; /* Limite la largeur maximale pour chaque image */
+    height: auto; /* Garde les proportions de l'image */
+    border-radius: 8px; /* Ajoute des coins arrondis pour un effet visuel agréable */
+}
+
+/* Style pour aligner et espacer le texte et les images */
+.presentation-text {
+    margin-left: 20px; /* Espace entre l'image et le texte */
+}
+
+/* Style responsive pour s'adapter aux petits écrans */
+@media (max-width: 768px) {
+    .presentation-container {
+        flex-direction: column; /* Sur petit écran, les éléments s'empilent */
+        text-align: center;
+    }
+
+    .presentation-text {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
 
