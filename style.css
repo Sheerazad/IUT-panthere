@@ -1,4 +1,4 @@
-  * { 
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -186,6 +186,7 @@ footer a:hover {
 
     .services-wrapper {
         flex-direction: column;
+        align-content: center;
         gap: 30px;
     }
 
@@ -339,15 +340,8 @@ footer a:hover {
     }
 
     .cta-button {
-        margin-top: 20px;
+        margin: 20px auto;
     }
-}
-
-/* Réinitialisation de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
