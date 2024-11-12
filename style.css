@@ -463,24 +463,24 @@ body {
 /* Section CTA */
 .cta-section {
     text-align: center;
-    margin: 60px auto; /* Ajoute un espacement supérieur et inférieur */
+    margin: 60px auto; 
     max-width: 900px;
 }
 
 .cta-section p {
-    font-size: 1.5em; /* Augmente la taille de la police */
+    font-size: 1.5em; 
     font-weight: normal;
     line-height: 1.4;
-    margin-bottom: 30px; /* Espacement entre le texte et le bouton */
+    margin-bottom: 30px; 
     color: #ff7f50;
 }
 
 .cta-section .cta-button {
     display: inline-block;
-    margin-top: 20px; /* Ajoute un petit espacement au-dessus si nécessaire */
+    margin-top: 20px; 
 }
 
-/* CSS pour redimensionner les images des sections de réalisation */
+
 .presentation-container {
     display: flex;
     align-items: center;
@@ -488,21 +488,21 @@ body {
 }
 
 .presentation-img img {
-    width: 100%; /* Redimensionne l'image en fonction de la taille du conteneur */
-    max-width: 300px; /* Limite la largeur maximale pour chaque image */
-    height: auto; /* Garde les proportions de l'image */
-    border-radius: 8px; /* Ajoute des coins arrondis pour un effet visuel agréable */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px; 
 }
 
-/* Style pour aligner et espacer le texte et les images */
+
 .presentation-text {
-    margin-left: 20px; /* Espace entre l'image et le texte */
+    margin-left: 20px; 
 }
 
-/* Style responsive pour s'adapter aux petits écrans */
+
 @media (max-width: 768px) {
     .presentation-container {
-        flex-direction: column; /* Sur petit écran, les éléments s'empilent */
+        flex-direction: column; 
         text-align: center;
     }
 
@@ -512,3 +512,9 @@ body {
     }
 }
 
+.presentation-img {
+    width: 100%;
+    max-width: 600px; 
+    border-radius: 0px; 
+    margin-bottom: -20px; 
+}
